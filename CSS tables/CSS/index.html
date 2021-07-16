@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>CSS Table tests with CSS - Makal Murray</title>
+        <link rel="stylesheet" href="Index-Copy.css">
+    </head>
+    
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <h1>Advenced CSS tables</h1>
+    <table>
+        <caption id="myHeader">Names/Age test</caption>
+        <tr>
+            <th>Lastname</th>
+            <th>Firstname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Murray</td>
+            <td>Makal</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>MacDonald</td>
+            <td>Kaden</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Lewin</td>
+            <td>Jayden</td>
+            <td>17</td>
+        </tr>
+    </table>
+    <table>
+        <caption id="myHeader">Best company test</caption>
+        <tr>
+            <th>Name</th>
+            <th>Best game developed</th>
+            <th>Company rating</th>
+        </tr>
+        <tr>
+            <td>Sega</td>
+            <td>Sonic Unleashed</td>
+            <td>75/100</td>
+        </tr>
+        <tr>
+            <td>Naughty Dog</td>
+            <td>The last of us part 2</td>
+            <td>100/100</td>
+        </tr>
+        <tr>
+            <td>Mojang</td>
+            <td>Minecraft</td>
+            <td>95/100</td>
+        </tr>
+    </table>
+    <table>
+        <caption id="myHeader">Favorite Artists (music)</caption>
+        <tr>
+            <th>Name:</th>
+            <td>Bruno Mars</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Best songs:</th>
+            <td>Finesse</td>
+        </tr>
+        <tr>
+            <td>EVERYTHING ELSE</td>
+        </tr>
+        <tr>
+            <th>Name:</th>
+            <td>Post Malone</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Best songs:</th>
+            <td>Better Now</td>
+        </tr>
+        <tr>
+            <td>I'm gonna be</td>
+        </tr>
+        <tr>
+            <th>Name:</th>
+            <td>The Weeknd</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Best songs:</th>
+            <td>Heartless</td>
+        </tr>
+        <tr>
+            <td>Die For You</td>
+        </tr>
+    </table>
+    <table>
+        <colgroup id="myHeader">
+            <col span="2" style=background-color:blue>
+            <col style="background-color:coral">
+        </colgroup>
+        <caption id="myHeader">Contact</caption>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Contact</th>
+        </tr>
+        <tr>
+            <td>Makal Murray</td>
+            <td>(000)-000-0000</td>
+            <td>Placehoder@blank.com</td>
+        </tr>
+    </table>
+</body>
+
+</html>
