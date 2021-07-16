@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--This is to set the  code the browser uses-->
+<html lang="en">
+<!--This is to set the language-->
+
+<head>
+    <!--This is mostly used for the title-->
+    <title>ARS - Home</title>
+    <!--This is the name of the Website in the Tab-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #000000;
+            position: relative;
+        }
+
+        .topnav a {
+            float: left;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ffffff;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: rgb(37, 138, 28);
+            color: white;
+        }
+
+        .topnav .icon {
+            display: none;
+        }
+
+        @media screen and (max-width: 600px) {
+            .topnav a:not(:first-child) {
+                display: none;
+            }
+
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .topnav.responsive {
+                position: relative;
+            }
+
+            .topnav.responsive .icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+          
+        }
+    </style>
+</head>
+
+
+<body>
+    <style>
+        body {
+            background-color: #ffffff;
+        }
+    
+        img {
+            border: 5px solid rgb(37, 138, 28);
+        }
+    </style>
+    <!--Everything goes in here for now on-->
+    <img src="https://lh3.googleusercontent.com/r6_ptbT4U3ITfLv_85RwOtqLENk-DNi3iyXEsDLPxjoHfq-qxL83bH-Wk80H010w0eFZuBYt81TgRCCQIY3IVwUR4_h-Qo6DXpbZktzQeZwrCG7ac1WxNjN1gN6NO3aE9dhnmUIKSQ=w2400"
+        alt="ARS Logo" style="width: 400px; height: 400px;">
+    <!--This is used for any image and is also the ARS logo-->
+    <div class="topnav" id="myTopnav">
+        <a class="active" href="ARS - Home - Copy.html">Home</a>
+        <a href="ARS - Join us page - Copy.html">Join us</a>
+        <a href="ARS Re-home a dog - Copy.html">Re-home a dog</a>
+        <a href="ARS - Re-home a cat - Copy.html">Re-home a cat</a>
+        <a href="ARS - About us - Copy.html">About us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <h1
+        style="margin: 0; text-align: center; background-color:#ffffff; color:black; font-family: Arial, Helvetica, sans-serif;">
+        Welcome to the Animal Rescue Shelter website!</h1>
+        <footer style="background-color:white;">
+    <!--Paragraphs are the most common place to put most text beside headings. The <hr> tag adds lines to seperate text-->
+    <img src="https://lh3.googleusercontent.com/e-vwqKbyMwtno2cy4FZvtR7AmbBn7Ft-AISfwn0EEZe9r2iKC7J0ai4DpVhl1a2KWx3k5uIaEBui7OSMIIoQLJmsAmtGHb7IrVFGhpVNy1al7f_EA9Ke3GltOmJFTsd_i5CoRO85ew=s200-p-k"
+        alt="Makaligator Logo" style="width: 200px; height: 200px;"></footer>
+</body>
+
+</html>
